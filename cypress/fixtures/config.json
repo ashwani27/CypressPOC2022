@@ -1,4 +1,5 @@
 {
   "username": "demo001",
-  "password": "Passw0rd"
+  "password": "Passw0rd",
+  "invalidLoginError" : "The username and password could not be verified."
 }

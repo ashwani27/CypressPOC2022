@@ -22,17 +22,17 @@
             "name": "Navigate to the application",
             "result": {
               "status": "passed",
-              "duration": 4480000000
+              "duration": 4488000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "User enters the valid credentials and click CustomerLogin",
+            "name": "User enters the valid credentials and click Login",
             "result": {
               "status": "passed",
-              "duration": 2898000000
+              "duration": 3723000000
             }
           },
           {
@@ -42,7 +42,47 @@
             "name": "Validate user lands on the Accounts Overview screen",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customerlogin;invalid-customer-user-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Invalid customer user login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Navigate to the application",
+            "result": {
+              "status": "passed",
+              "duration": 4092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User enters the invalid credentials and click Login",
+            "result": {
+              "status": "passed",
+              "duration": 1386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Validate an invalid user login error message",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
             }
           }
         ]
