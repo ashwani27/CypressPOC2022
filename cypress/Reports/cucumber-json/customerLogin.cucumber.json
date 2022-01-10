@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "CustomerLogin",
+    "line": 1,
+    "id": "customerlogin",
+    "tags": [],
+    "uri": "customerLogin.feature",
+    "elements": [
+      {
+        "id": "customerlogin;valid-customer-user-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Valid customer user login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Navigate to the application",
+            "result": {
+              "status": "passed",
+              "duration": 4480000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters the valid credentials and click CustomerLogin",
+            "result": {
+              "status": "passed",
+              "duration": 2898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Validate user lands on the Accounts Overview screen",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+{
+    "defaultCommandTimeout": 60000,
+    "pageLoadTimeout": 120000,
+    "testFiles": "**/*.feature"
+}
